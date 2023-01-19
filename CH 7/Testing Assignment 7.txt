@@ -1,0 +1,41 @@
+﻿Type Of Data
+	Given Data
+	Expected
+	Result
+	Steps/Observations
+	Good Data 
+	Start: 5 seconds
+Stop: After 5 seconds 
+	Total: 5 seconds
+	Total: 5.021 seconds
+	The Good Data was methodically done in a manner to prevent any sort of human error to the expeirment. This  meant the buttons were pressed without doing any other event. All the resultscame out as expected no errors.
+	Start: 5 seconds
+Stop: After 5 seconds 
+Reset:
+Start: 2 seconds
+Stop: 2 seconds
+	Total: 2 seconds
+	Total: 2 seconds
+	Bad Data
+	Start: 5 seconds
+Press Start 5 times
+Stop: After 5 seconds 
+Reset 2 times
+Start then immediately stop
+
+
+	Total: small millisecond with no errors or glitchs
+	No errors found Total: small millisecond 
+	This was tested by performing a lot of rapid inputs to see if the program would have a negative result to too many clicks. No errors were found.
+	Click clock
+Start 1 second
+Stop 
+Inspect change
+Source code for .js file line 49 from 0 to 10.
+Start: 5 seconds
+Stop: After 5 seconds
+	Total 5 seconds
+No errors
+	Total 5 seconds
+No errors
+	This data was tested to see if attempting to change the .js source code file through inspect would change anything, however they code worked fine with no errors

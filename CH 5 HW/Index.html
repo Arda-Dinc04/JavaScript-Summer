@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">	
+	<link rel="stylesheet" href="Sales_Tax.css">
+    <title>Sales Tax Calculator</title>
+</head>
+<body>
+    <main>
+        
+        <h1>Sales Tax Calculator</h1>
+        <p>Enter Subtotal and Tax Rate and click "Calculate".</p>
+        <div><label>Subtotal: </label><input type="text" id="subtotal" ><br></div>
+        <div><label>Tax Rate: </label><input type="text" id="taxRate" ><br></div>
+        <div><label>Sales Tax: </label><input type="text" id="salesTax" disabled><br></div>
+        <div><label>Total: </label><input type="text" id="total" disabled><br></div>
+    
+        <results>
+            <label></label><input type="button" id="calculate" onclick = "processEntry();" value = "Calculate" />
+            <input type="button" id="clear" onclick = "eraseEntry();" value = "Clear" />
+        </results>
+      
+        <script src="salesTax.js"></script>
+       
+    </main>
+</body>
+</html>

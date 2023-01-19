@@ -1,0 +1,34 @@
+﻿Type Of Data
+	Given Data
+	Expected
+	Result
+	Steps/Observations
+	Good Data 
+	Name: Arda, Jack, Steven
+Score:100, 90, 80
+	Avg Score: 90
+High Score: 100
+	Avg Score: 90
+High Score: 100
+	The Good Data was done in a manner to prevent any sort of human error to the expeirment. This  meant userinput was entered correctly with no errors and solved with the Add button, displayScore, displayResult and all done in order.
+	Name: K, J, I
+Score:7, 8, 9
+	Avg Score: 8
+High Score: 9
+	Avg Score: 8
+High Score: 9
+	Bad Data
+	Name:10, 20
+Score:10, 20
+	Avg Score: 15
+High Score: 20
+	Avg Score: 15
+High Score: 20
+	This was tested by entering a numerical value for both the name and score to see if there would be any issues with the return values. NO issues were found the name values were taken as a string and were displayed correctly. 
+	Name: &*, **
+Score:1.5, 3.0
+	Avg Score: 2
+High Score: 3
+	Avg Score: 2
+High Score: 3
+	This data was checking to see is special characters had an effect on the return display and also if decimals had any effect on the results either, Also using the inspect module I accessed the css file and changed the width of the box to see if that would effect anything it did effect the way the results were displayed however, theresults were what was expected

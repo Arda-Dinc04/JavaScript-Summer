@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">	
+	<link rel="stylesheet" href="TestScores.css">
+    <title>Sales Tax Calculator</title>
+</head>
+<body>
+    <main>
+         <!-- main layout, input, buttons, headers --> 
+        <h1>Use a Test Score Array</h1>
+        <div><label>Name: </label><input type="text" id="name" ></div><br>
+        <div><label>Score: </label><input type="text" id="score" ></div><br>
+        <label></label><input type="button" id="add" onclick = "processEntry();" value = "Add to Array"/>
+        <input type="button" id="displayResults" onclick = "displayResults();" value = "Display Results"/>
+        <input type="button" id="displayScores" onclick = "processEntry();" value = "Display Scores"/>
+        
+        <!-- output --> 
+        <div id="results">
+            <h2 id="results_header"></h2>
+            <p id="results_text"></p>	
+        </div>
+          <h2 id="scores_header"></h2>
+        <div id="scores">
+              <p id="names" align="left"></p>
+              <p id="scores-" align="left"></p>
+        </div>
+
+        <script src="TestScores.js"></script>
+       
+    </main>
+</body>
+</html>

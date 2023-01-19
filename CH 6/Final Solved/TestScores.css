@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin: 0 auto;
+    width: 510px;
+    border: 3px solid blue;
+    padding: 0 2em 1em;
+}
+h1 {
+    color: blue;
+}
+h2 {
+    color: blue;
+}
+div {
+    margin-bottom: 0.5 em;
+}
+span{
+    text-align-last: right;
+    color: red;
+}
+label {
+    display: inline-block;
+    width: 3em;
+    text-align: left;
+}
+input {
+    margin-left: 1em;
+}
+#scores{
+    width: 20em;
+    text-align: left;
+}
+#scoreLabel{
+    margin-left: 150px;
+}
